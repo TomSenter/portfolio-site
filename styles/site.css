@@ -83,7 +83,7 @@ header a:hover {
           flex-direction: column;
   width: 100%;
   height: auto;
-  min-height: 380px;
+  min-height: 500px;
   background-color: purple;
   color: white;
   margin-bottom: 20px;
