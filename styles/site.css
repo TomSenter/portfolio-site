@@ -98,7 +98,7 @@ header a:hover {
 .name h3 {
   height: auto;
   text-align: center;
-  font-size: clamp(0.6em, 5vw, 2em);
+  font-size: clamp(0.9em, 5vw, 2em);
 }
 
 .name p {
