@@ -3,8 +3,8 @@
 
 .contact-main{
     width: 100%;
-    height: calc(100vh - 40px);
-    min-height: 500px;
+    height: calc(100vh);
+    min-height: 550px;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -24,7 +24,7 @@
     text-align: center;
     width: 100%;
     height: auto;
-    font-size: clamp(0.7rem,4vw,1.6rem);
+    font-size: clamp(0.4rem,4vw,1.6rem);
 }
 
 .contact-main a{
