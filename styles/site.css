@@ -286,7 +286,7 @@ footer h3 {
 /*contact page css*/
 .contact-main {
   width: 100%;
-  height: calc(100vh);
+  height: 100vh;
   min-height: 550px;
   display: -webkit-box;
   display: -ms-flexbox;
