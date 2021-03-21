@@ -90,13 +90,13 @@ header a:hover {
 }
 
 .name h1 {
-  height: 60px;
+  height: auto;
   text-align: center;
   font-size: clamp(0.7em, 6vw, 2.2em);
 }
 
 .name h3 {
-  height: 50px;
+  height: auto;
   text-align: center;
   font-size: clamp(0.6em, 5vw, 2em);
 }
