@@ -3,8 +3,8 @@
 
 .contact-main{
     width: 100%;
-    height: 100vh;
-    min-height: 550px;
+    height: auto;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -42,7 +42,7 @@ form{
     flex-direction: column;
     width: 50%;
     min-width: 280px;
-    height: 60vh;
+    height: 65vh;
     min-height: 300px;
     
 }
@@ -67,6 +67,8 @@ form button{
     background-color: white;
     cursor: pointer;
     font-size: clamp(0.6em,2vw,1.2em);
+    margin-bottom: 3vh;
+    margin-top: 2vh;
 }
 
 
