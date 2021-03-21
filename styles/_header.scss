@@ -1,0 +1,42 @@
+header{
+    height: $headerHeight;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 5%;
+    border-bottom: 2px solid $sitePurple;
+    
+}
+
+header span{
+    color: $sitePurple;
+    font-size: clamp(0.6em,3vw,1.5em);
+    border-radius: 50%;
+    width: 10%;
+    max-width: 50px;
+    border: 2px solid $sitePurple;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+}
+
+header a{
+    text-decoration: none;
+    border: 2px solid $sitePurple;
+    border-radius: 5px;
+    height: 40px;
+    width: 100px;
+    color: $sitePurple;
+    transition: width 0.6s;
+    display: flex;
+    @include flexCenter();
+    font-size: clamp(0.6em,3vw,1.5em);
+  
+}
+
+header a:hover{
+    width: 120px;
+}
+
+

@@ -1,0 +1,35 @@
+footer{
+    height: $footerHeight;
+    background-color: $sitePurple;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+footer span{
+    color: white;
+    font-size: clamp(0.6em,3vw,1.5em);
+    border-radius: 50%;
+    width: 10%;
+    border: 2px solid white;
+    padding: 5px;
+    text-align: center;
+    font-weight: 600;
+    max-width: 50px;
+}
+
+footer h3{
+    font-size: clamp(0.9em,2vw,1.4em);
+}
+
+/*media queries*/
+@media only screen and (max-width:500px){
+    footer{
+        height: 200px;
+        flex-direction: column;
+    }
+}
+

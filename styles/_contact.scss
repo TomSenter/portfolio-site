@@ -1,0 +1,122 @@
+
+/*contact page css*/
+
+.contact-main{
+    width: 100%;
+    height: calc(100vh - 40px);
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.header-contact{
+    margin-top: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-main h1{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    font-size: clamp(1em,4vw,1.6em);
+}
+
+.contact-main a{
+    text-decoration: none;
+    color: $sitePurple;
+    font-size: clamp(1em,4vw,1.6em);
+    text-align: center;
+}
+
+
+form{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-width: 280px;
+    height: 60vh;
+    min-height: 300px;
+    
+}
+
+
+
+form input{
+    height: 8vh;
+    min-width: 150px;
+    min-height: 40px;
+    padding: 5px;
+    width: 30%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+form button{
+    height: 6vh;
+    min-height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: 2px solid $sitePurple;
+    background-color: white;
+    cursor: pointer;
+    font-size: clamp(0.6em,2vw,1.2em);
+}
+
+
+form textarea{
+    width: 80%;
+    height: 35vh;
+    min-height: 100px;
+    padding: 20px;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+form span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+}
+
+
+form input, form textarea{
+    border: rgba(128, 128, 128, 0.486) 1px solid;
+    border-radius: 5px;
+
+}
+
+form input:focus, form textarea:focus{
+    outline: 2px solid $sitePurple;
+    
+}
+
+/*media queries*/
+@media only screen and (max-width: 767px){
+    form span{
+        justify-content: center;
+
+    }
+
+    #email-form-input{
+        margin-top: 1vh;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .contact-main h1{
+        width: 90%;
+       
+    }
+}
+
+
+
+

@@ -1,0 +1,19 @@
+.social-banner{
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border: 2px solid $sitePurple;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+
+@media only screen and (min-height: 960px){
+    .social-banner{
+        margin-top: 10vh;
+    }
+}
