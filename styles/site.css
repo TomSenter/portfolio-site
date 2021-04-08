@@ -108,8 +108,9 @@ header a:hover {
   height: auto;
   text-align: center;
   font-weight: 600;
-  font-size: clamp(0.6rem, 1vw, 1.7rem);
+  font-size: clamp(0.8rem, 2vw, 1.3rem);
   margin-top: 1vh;
+  padding: 2%;
 }
 
 .name h4 {
@@ -123,6 +124,7 @@ header a:hover {
   list-style-type: circle;
   font-weight: 600;
   font-size: clamp(0.3em, 0.7em, 1.7em);
+  margin-bottom: 2vh;
 }
 
 .social-banner {
@@ -269,7 +271,7 @@ footer span {
 }
 
 footer h3 {
-  font-size: clamp(0.9em, 2vw, 1.4em);
+  font-size: clamp(0.8em, 3vw, 1.4em);
 }
 
 /*media queries*/
@@ -324,7 +326,9 @@ footer h3 {
   text-align: center;
   width: 100%;
   height: auto;
-  font-size: clamp(0.4rem, 4vw, 1.6rem);
+  font-size: clamp(1rem, 3.5vw, 1.6rem);
+  margin-bottom: 1vh;
+  padding: 5%;
 }
 
 .contact-main a {
@@ -332,6 +336,7 @@ footer h3 {
   color: purple;
   font-size: clamp(0.7rem, 4vw, 1.6rem);
   text-align: center;
+  margin-bottom: 1vh;
 }
 
 form {
@@ -372,7 +377,7 @@ form button {
   cursor: pointer;
   font-size: clamp(0.6em, 2vw, 1.2em);
   margin-bottom: 3vh;
-  margin-top: 2vh;
+  margin-top: 3vh;
 }
 
 form textarea {
